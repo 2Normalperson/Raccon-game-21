@@ -1,0 +1,101 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+
+.enemy_screen {
+  position: absolute;
+  left: 80%;
+  top: 10%;
+  transform: translate(-80%, -10%);
+}
+
+
+.E_health_bar {
+  display: flex;
+  justify-content: center;
+  border-style: solid;
+  border-color: black;
+  border-radius: 10px;
+  border-width: 5px;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+.player_screen {
+  position: absolute;
+  left: 50%;
+  bottom: 10%;
+  transform: translate(-50%, 0%);
+  border-color: black;
+  border-style: solid;
+  border-width: 5px;
+  border-radius: 10px;
+  width: 90%;
+}
+
+.p_health_bar {
+  display: flex;
+  justify-content: center;
+}
+
+.options {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.heal {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+button {
+  transition-duration: 0.4s;
+  font-family: 'VT323', monospace;
+  margin-bottom: 10px;
+  border: 5px solid;
+  background-color: white;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  border-color: #000000;
+  color: #000000;
+}
+
+button:hover {
+  background-color: #000000;
+  color: white;
+}
+
+.enemy {
+  width: 30%;
+}
+
+.image {
+  margin-top: 20px;
+  display: flex; 
+  justify-content: center;
+}
+
+.text_box {
+  display: flex;
+  justify-content: center;
+}
+
+.heal {
+  display: none;
+}
+.attack {
+  display: none;
+}
+.run {
+  display: none;
+}
+
+body {
+  font-family: 'VT323', monospace;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
